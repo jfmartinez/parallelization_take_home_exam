@@ -29,11 +29,11 @@ Here’s is the description of the tasks you have to run:
 
 9. Copy the content of dC back into hC
 
-10. For inclusive timing, stop the timing now
+10. For inclusive timing, stop the timing now.
 
 11. Report the amount of time required to complete the job
 
-12.Confirm that the numbers in refC and hC are identical within 1E-12
+12. Confirm that the numbers in refC and hC are identical within 1E-12
 
 
 
