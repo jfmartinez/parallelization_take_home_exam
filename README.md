@@ -29,9 +29,9 @@ Here’s is the description of the tasks you have to run:
 
 9. Copy the content of dC back into hC
 
-10.For inclusive timing, stop the timing now
+10. For inclusive timing, stop the timing now
 
-11.Report the amount of time required to complete the job 12.Confirm that the numbers in refC and hC are identical within 1E-12
+11. Report the amount of time required to complete the job 12.Confirm that the numbers in refC and hC are identical within 1E-12
 
 
 
@@ -40,7 +40,9 @@ Here’s is the description of the tasks you have to run:
 Write an MPI program that utilizes 16 processes to do one thing: process 0 will send to the other 15 processes an array of data. Specifically, transfer from process 0 to the other processes 20 bytes; 21 bytes; 22 bytes; ...; 230 bytes. Generate a plot that shows the amount of time required by each of these transfers. Do not register the amount of time necessary to allocate memory. You might want to allocate memory once, for the most demanding case (230 bytes), and then use it for all the other data transfer cases.
 
 Compare (on the same plot) two scenarios:
+
 1. You use a MPI_Bcast operation to transfer the data
+
 2. You use a for-loop to carry out the data transfer using point-to-point Send/Receive operations
 
 You should use the MPI_Ssend flavor of the send operation to endure synchronization of the send/receive operation. This is just to make sure things are fair for small data transactions, when the data might be buffered by OpenMPI for you. In other words, we are enforcing a “rendezvous” always policy and not get tricked by “eager” mode transfers.
