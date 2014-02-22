@@ -1,0 +1,33 @@
+Transfer: 0 took 0.004939 to complete.
+Transfer: 1 took 0.000197 to complete.
+Transfer: 2 took 0.000189 to complete.
+Transfer: 3 took 0.000164 to complete.
+Transfer: 4 took 0.000160 to complete.
+Transfer: 5 took 0.000149 to complete.
+Transfer: 6 took 0.000131 to complete.
+Transfer: 7 took 0.000167 to complete.
+Transfer: 8 took 0.000151 to complete.
+Transfer: 9 took 0.000159 to complete.
+Transfer: 10 took 0.000149 to complete.
+Transfer: 11 took 0.000152 to complete.
+Transfer: 12 took 0.000245 to complete.
+Transfer: 13 took 0.000266 to complete.
+Transfer: 14 took 0.000322 to complete.
+Transfer: 15 took 0.000477 to complete.
+Transfer: 16 took 0.000813 to complete.
+Transfer: 17 took 0.001478 to complete.
+Transfer: 18 took 0.002402 to complete.
+Transfer: 19 took 0.004650 to complete.
+Transfer: 20 took 0.009579 to complete.
+Transfer: 21 took 0.019837 to complete.
+Transfer: 22 took 0.043326 to complete.
+Transfer: 23 took 0.080557 to complete.
+Transfer: 24 took 0.161026 to complete.
+Transfer: 25 took 0.444397 to complete.
+Transfer: 26 took 0.989206 to complete.
+Transfer: 27 took 0.769486 to complete.
+[i136:24582] 15 more Transferes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[i136:24582] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Transfer: 28 took 1.370401 to complete.
+Transfer: 29 took 2.558527 to complete.
+Transfer: 30 took 4.841884 to complete.
