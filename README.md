@@ -36,7 +36,6 @@ Here’s is the description of the tasks you have to run:
 12. Confirm that the numbers in refC and hC are identical within 1E-12
 
 
-
 ##Problem 2
 
 Write an MPI program that utilizes 16 processes to do one thing: process 0 will send to the other 15 processes an array of data. Specifically, transfer from process 0 to the other processes 20 bytes; 21 bytes; 22 bytes; ...; 230 bytes. Generate a plot that shows the amount of time required by each of these transfers. Do not register the amount of time necessary to allocate memory. You might want to allocate memory once, for the most demanding case (230 bytes), and then use it for all the other data transfer cases.
